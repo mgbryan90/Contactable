@@ -1,0 +1,41 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid var(--input);
+  margin-bottom: 1rem;
+  padding: 14px 10px;
+  align-items: center;
+  height: 56px;
+}
+.contacts__header a,
+.header a {
+  font-size: 0.75rem;
+  line-height: 20px;
+}
+
+.contacts__header a:hover,
+.header a:hover {
+  background: #1da1f2;
+  color: #fff;
+  box-shadow: 0 0 10px #1da1f2, 0 0 40px #1da1f2, 0 0 80px #1da1f2;
+}
+
+.title {
+  font-size: 1.25rem;
+  line-height: 28px;
+  font-weight: 400;
+}
+
+.contacts__header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 14px 10px;
+}
+
+.subtitle {
+  color: var(--subtitle);
+  padding: 15px 10px;
+  border-bottom: 1px solid var(--input);
+  font-size: 12px;
+}

@@ -1,0 +1,85 @@
+.contact__item {
+  display: flex;
+  justify-content: space-between;
+  padding: 12px 10px;
+  margin-bottom: 8px;
+}
+.favorites__item {
+  display: flex;
+  justify-content: space-between;
+  padding: 12px 10px;
+  background: var(--favorites-bg);
+  margin: 8px 0;
+}
+.contact__item--text {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+
+.contact__item--text p {
+  font-size: 14px;
+}
+.all-favorites,
+.all-contacts {
+  padding-left: 0px;
+  margin: 0;
+}
+
+.contact__item--img {
+  width: 32px;
+  height: 32px;
+}
+
+.detail__avatar {
+  width: 4.5rem;
+  height: 4.5rem;
+  margin: auto;
+}
+
+.detail__name {
+  font-size: 1rem;
+  line-height: 1.5rem;
+}
+
+.detail__label,
+.detail__relation {
+  color: var(--subtitle);
+  font-size: 0.75rem;
+  line-height: 1.25rem;
+}
+
+.detail__number,
+.detail__email {
+  font-size: 0.75rem;
+  line-height: 1.25rem;
+}
+
+.detail__number--container {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.detail__email--container {
+  display: flex;
+  gap: 1.3125rem;
+}
+
+.detail__num__email--container {
+  margin-top: 1.5rem;
+  margin-left: 3.75rem;
+  display: flex;
+  flex-direction: column;
+  color: #595959;
+}
+
+.detail__avatar__name--container {
+  text-align: center;
+}
+.detail__relation {
+  margin-top: 0.25rem;
+}
+.detail__name {
+  margin-top: 0.5rem;
+  font-weight: 400;
+}

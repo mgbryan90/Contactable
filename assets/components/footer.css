@@ -1,0 +1,12 @@
+.footer {
+  display: flex;
+  justify-content: flex-end;
+  gap: 26px;
+  border-top: 1px solid var(--input);
+  padding: 0.9375rem;
+}
+
+.contacts-footer {
+  display: flex;
+  justify-content: flex-end;
+}
